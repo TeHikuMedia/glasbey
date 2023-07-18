@@ -25,29 +25,14 @@ Installation
 
 To install `glasbey` run
 ```shell
-pip install path/to/glasbey
-```
-
-To show a progress bar during palette generation run
-```shell
-pip install path/to/glasbey[progressbar]
-```
-
-To be able to visualize generated palettes run
-```shell
-pip install path/to/glasbey[view_palette]
-```
-
-For both run
-```shell
-pip install path/to/glasbey[progressbar,view_palette]
+pip install git+https://github.com/TeHikuMedia/glasbey
 ```
 
 Usage as command-line-tool
 --------------------------
 
 ```
-usage: glasbey.py [-h] [--base-palette BASE_PALETTE] [--no-black] [--view]
+usage: python -m glasbey [-h] [--base-palette BASE_PALETTE] [--no-black] [--view]
                   [--format FORMAT]
                   size output
 
